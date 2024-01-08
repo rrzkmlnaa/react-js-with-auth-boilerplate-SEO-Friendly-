@@ -1,0 +1,29 @@
+body,
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+/* For Chrome */
+::-webkit-scrollbar {
+  width: 8px;
+  /* Set the width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Set the color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #41778a;
+  /* Set the color of the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #196c8a;
+  /* Set the color of the handle on hover */
+}
